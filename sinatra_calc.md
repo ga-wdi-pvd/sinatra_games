@@ -16,6 +16,8 @@
 - Same with `/calculator/subtract`, `/calculator/multiply`, and `/calculator/divide`
 - The calculator can add, subtract, multiply and divide.
 
-###Bonus
-- Translate one line of your DC Metro app to Sinatra
-  - Example: When I visit `/dc_metro/woodleyp/farragutn` using a GET, I should see "Your trip length from woodleyp to farragutn is 2 stops." in the browser.
+###Setting Up
+- You will need to clone this repo to you local machine
+- You will write your REST methods in `calc.rb`
+- You will need to create an `.erb` file to render the information to the browser
+- To send your numbers back to the methods your using to make calculations, pass them as query parameters in the url
