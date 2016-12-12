@@ -18,6 +18,7 @@
 
 ###Setting Up
 - You will need to clone this repo to you local machine
+- Run `bundle install` to download dependencies from the Gemfile
 - You will write your REST methods in `calc.rb`
 - You will need to create an `.erb` file to render the information to the browser
 - To send your numbers back to the methods your using to make calculations, pass them as query parameters in the url
